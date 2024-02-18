@@ -1,5 +1,5 @@
 from flask_ngrok import run_with_ngrok
-from flask import Flask, request, render_template, redirect, url_for
+import request, render_template, redirect, url_for
 import requests
 import time
 
