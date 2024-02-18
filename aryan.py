@@ -1,5 +1,4 @@
 from flask_ngrok import run_with_ngrok
-import request
 import render_template
 import requests
 import time
