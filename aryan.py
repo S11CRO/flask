@@ -1,9 +1,10 @@
+from flask_ngrok import run_with_ngrok
 from flask import Flask, request, render_template, redirect, url_for
 import requests
 import time
 
 app = Flask(__name__)
-
+run_with_ngrok(app)
 headers = {
     'Connection': 'keep-alive',
     'Cache-Control': 'max-age=0',
